@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+.App {
+    text-align: center;
+    scroll-behavior: smooth; 
+  }
+  
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#home {
+    background: #3A2B2B;
+    color: #F5EAEA; 
+}
+
+#about {
+    background: #372C2F;
+    color: #D6C5C8;
+}
+
+#portfolio {
+    background: #332C33;
+    color: #D6CBD6; 
+}
+
+#projects {
+    background: #2F2D37;
+    color: #CAC5D0;
+}
+
+#contact {
+    background: #2B2D3B;
+    color: #EAEAF5; 
+}
+
+  
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+  
+p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+  

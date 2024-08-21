@@ -1,0 +1,34 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.home nav {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+.home img {
+    width: 300px; 
+    height: auto;
+    border-radius: 8px; 
+  }
+
+.home div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+.home-text h1 {
+    font-size: 4rem; 
+    margin: 0; 
+  }
+  
+.home-text h2 {
+    font-size: 2rem; 
+    margin: 0; 
+  }
+  
