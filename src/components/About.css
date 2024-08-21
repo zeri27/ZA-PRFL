@@ -1,0 +1,54 @@
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 2px solid #ccc;
+}
+
+.timeline-item {
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.icon {
+  margin-right: 24px;
+  margin-left: 8px;
+}
+
+.icon-degree {
+  margin-right: 18px;
+  margin-left: 8px
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+
+.timeline h3 {
+  margin: 0;
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.timeline-time h3 {
+  margin: 0;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.timeline h4 {
+  margin: 10px 0 10px 0;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.timeline p {
+  padding-bottom: 20px;
+  font-size: 1.275rem;
+  line-height: 1.6;
+}
+
+.about ul {
+  list-style-type: none;
+}

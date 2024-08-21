@@ -1,56 +1,63 @@
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 1.6;
-  }
-  
+}
+
 .App {
-    text-align: center;
-    scroll-behavior: smooth; 
-  }
-  
+    scroll-behavior: smooth;
+}
+
 section {
-    padding: 100px 20px;
+    padding: 60px 60px;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
+}
+
+#home {
+    padding: 100px 20px;
+    background: #3a2b2b;
+    color: #f5eaea;
     justify-content: center;
     align-items: center;
-  }
-  
-#home {
-    background: #3A2B2B;
-    color: #F5EAEA; 
 }
 
 #about {
-    background: #372C2F;
-    color: #D6C5C8;
+    background: #372c2f;
+    color: #d6c5c8;
 }
 
 #portfolio {
-    background: #332C33;
-    color: #D6CBD6; 
+    background: #332c33;
+    color: #d6cbd6;
 }
 
 #projects {
-    background: #2F2D37;
-    color: #CAC5D0;
+    background: #2f2d37;
+    color: #cac5d0;
 }
 
 #contact {
-    background: #2B2D3B;
-    color: #EAEAF5; 
+    background: #2b2d3b;
+    color: #eaeaf5;
 }
 
-  
 h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-  
+
+h2 {
+    font-size: 2.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 p {
     font-size: 1.2rem;
     max-width: 800px;
-    margin: 0 auto;
+    display: inline;
+    margin-bottom: 20px;
 }
-  
