@@ -30,5 +30,8 @@
 .home-text h2 {
     font-size: 2rem; 
     margin: 0; 
+    border-right: 2px solid black; 
+    white-space: nowrap; 
+    overflow: hidden;
   }
   
