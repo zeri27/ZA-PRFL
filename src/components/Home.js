@@ -29,9 +29,9 @@ function Home() {
       // Different speeds for deleting or typing
       setTypingSpeed(isDeleting ? 50 : 150);
 
-      // Finished typing so wait 5 seconds before starting to delete
+      // Finished typing so wait 3.8 seconds before starting to delete
       if (!isDeleting && currentTitle === fullTitle) {
-        setTimeout(() => setIsDeleting(true), 5000);
+        setTimeout(() => setIsDeleting(true), 3750);
         // Deleting finished so retreive next title to start typing
       } else if (isDeleting && currentTitle === "") {
         setIsDeleting(false);
