@@ -1,16 +1,6 @@
 import "./Portfolio.css";
 
 function Portfolio() {
-  const specialties = [
-    "AI/ML",
-    "Computer Vision",
-    "CI/CD",
-    "Data Science",
-    "DevOps",
-    "Full Stack Development",
-    "RESTful APIs",
-  ];
-
   return (
     <div className="portfolio">
       <nav className="#portfolio">
