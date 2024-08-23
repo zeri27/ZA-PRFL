@@ -1,0 +1,57 @@
+.contact {
+    position: relative;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.contact ul {
+    list-style-type: none;
+
+}
+
+.contact h3:hover {
+    color: #d3a72c;
+}
+
+.contact h3 {
+    font-size: 1.5rem;
+}
+
+h3 a {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.contact img {
+    width: 225px;
+    height: auto;
+    border-radius: 8px;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}
+
+.contact-funny-brace h2 {
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    font-size: 15rem;
+}
+
+.contact-image-desc {
+    position: absolute;
+    top: 180px;
+    left: 1010px
+}
+
+.contact-image-desc h3 {
+    margin-bottom: -20px;
+}
