@@ -10,12 +10,12 @@ body {
 
 section {
     padding: 60px 60px;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 #home {
+    min-height: 100vh;
     padding: 100px 20px;
     background: #3a2b2b;
     color: #f5eaea;
