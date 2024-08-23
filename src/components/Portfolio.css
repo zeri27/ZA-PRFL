@@ -45,3 +45,15 @@
     display: inline-block;
     color: #f1e1f1;
 }
+
+.portfolio-comp-final-last p span {
+    padding-bottom: 10px;
+    font-size: 1.275rem;
+    padding-right: 75px;
+    display: inline-block;
+    color: #f1e1f1;
+}
+
+.portfolio-comp-prof h3 {
+    color: #e0b0ff
+}

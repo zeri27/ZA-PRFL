@@ -113,7 +113,7 @@ function Portfolio() {
               integration.
             </span>
           </p>
-          <div className="portfolio-comp-last">
+          <div className="portfolio-comp-final-last">
             <p>
               <span>
                 Committed to applying best practices in software engineering,
@@ -126,14 +126,48 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <h2>Research Experience</h2>
-        <h2>Certifications & Training</h2>
-        <h2>Favorite Tech & Interests</h2>
-        <h2>Professional Values</h2>
-        <h2>Testimonials</h2>
+        {/*<h2>Certifications & Training</h2>*/}
+        {/*<h2>Favorite Tech & Interests</h2>*/}
+        <div className="portfolio-comp">
+          <h2>Professional Values</h2>
+          <div className="portfolio-comp-prof">
+            <h3>Problem-Solving First</h3>
+            <div className="portfolio-comp-last">
+              <p>
+                <span>
+                  Prioritizing understanding the problem space is the key to
+                  creating impactful software solutions. Each line of code must
+                  be intentional and directly address a specific challenge.
+                </span>
+              </p>
+            </div>
+            <h3>Adaptability</h3>
+            <div className="portfolio-comp-last">
+              <p>
+                <span>
+                  Navigating changing environments with flexibility and
+                  resilience is crucial for overcoming challenges. Adapting to
+                  new demands, technologies, and project shifts is key to
+                  sustained success.
+                </span>
+              </p>
+            </div>
+            <h3>Collaboration & Communication</h3>
+            <div className="portfolio-comp-final-last">
+              <p>
+                <span>
+                  Effective teamwork and clear communication are at the core of
+                  every successful project. Striving to elevate team dynamics
+                  through active collaboration ensures that everyone is aligned
+                  and working toward a common goal.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        {/*<h2>Testimonials</h2>*/}
       </nav>
     </div>
   );
 }
-
 export default Portfolio;
