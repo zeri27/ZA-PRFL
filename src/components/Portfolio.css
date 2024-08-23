@@ -1,0 +1,59 @@
+/*Tech Stack*/
+.portfolio h3 {
+    margin-top: -20px;
+    margin-left: 60px;
+    font-size: 1.8rem;
+    color: #b39eb5;
+}
+
+.portfolio-content {
+    font-size: 1.75rem;
+    color: #e0b0ff;
+}
+
+/*Core Competencies*/
+.portfolio-comp h2 {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.portfolio-comp h3 {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    font-size: 1.8rem;
+    color: #d3a72c;
+}
+
+.portfolio-comp p {
+    margin-top: -60px;
+    margin-left: 60px;
+}
+
+.portfolio-comp p span {
+    margin-bottom: 20px;
+    font-size: 1.275rem;
+    padding-right: 75px;
+    display: inline-block;
+    color: #f1e1f1;
+}
+
+.portfolio-comp-last p span {
+    margin-bottom: -20px;
+    font-size: 1.275rem;
+    padding-right: 75px;
+    display: inline-block;
+    color: #f1e1f1;
+}
+
+.portfolio-comp-final-last p span {
+    padding-bottom: 10px;
+    font-size: 1.275rem;
+    padding-right: 75px;
+    display: inline-block;
+    color: #f1e1f1;
+}
+
+.portfolio-comp-prof h3 {
+    color: #e0b0ff
+}
