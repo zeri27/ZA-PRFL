@@ -38,25 +38,25 @@ To explore or contribute to the codebase, follow these steps:
 
 1. **Clone the repository**
 
-```
-git  <span style="color: #FFD700;">clone</span> https://github.com/zeri27/ZA-PRFL.git
+```bash
+git clone https://github.com/zeri27/ZA-PRFL.git
 ```
 
 2. **Navigate to the Project Directory**
 
-```
-<span style="color: #FFD700;">cd</span> ZA-PRFL
+```bash
+cd ZA-PRFL
 ```
 
 3. **Install Dependencies**
 
-```
+```bash
 npm install
 ```
 
 4. **Start the development server**
 
-```
+```bash
 npm start
 ```
 
@@ -66,7 +66,7 @@ Your development server will start at **http://localhost:3000**.
 
 To create a production build of the website, run:
 
-```
+```bash
 npm run build
 ```
 
