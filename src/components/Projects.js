@@ -5,6 +5,7 @@ import tensorflow_svg from "../svg/tensorflow.svg";
 import pytorch_svg from "../svg/pytorch-icon.svg";
 import ultralytics_svg from "../svg/Ultralytics_YOLO_Logomark_Original.svg";
 import java_svg from "../svg/java.svg";
+import geniusWeb_png from "../svg/geniusWeb.svg";
 
 function Projects() {
   const techMap = {
@@ -28,11 +29,30 @@ function Projects() {
       svg: java_svg,
       link: "https://www.java.com/en/",
     },
+    GeniusWeb: {
+      svg: geniusWeb_png,
+      link: "https://tracinsy.ewi.tudelft.nl/pubtrac/GeniusWeb/wiki/WikiStart#Protocol",
+    },
   };
 
-  const researchProjects = [
+  /* Lists are reversed so add latest projects at the end */
+  const researchProj = [
     {
-      id: 1,
+      name: "AgentQT",
+      context: "Delft University of Technology",
+      technologies: ["Python", "GeniusWeb"],
+      githubLink:
+        "https://github.com/JyotiradityaaJaiman/CAI-Negotiation/tree/main",
+      paperLink: "/assets/Group59_report.pdf",
+      highlights: [
+        "Analysed existing negotiation and bidding strategies to optimize decision-making.",
+        "Designed and implemented a strategic & adaptable bidding algorithm.",
+        "Evaluated the agent's performance through extensive simulations.",
+        "Delivered a competitive negotiation agent for the ANL 2023.",
+      ],
+      completedDate: "Collaborative AI: Negotiation - April 2024",
+    },
+    {
       name: "EnsembAudit (EA)",
       context: "Delft University of Technology",
       technologies: ["Python", "PyTorch", "TensorFlow", "Ultralytics"],
@@ -49,9 +69,8 @@ function Projects() {
     },
   ];
 
-  const projects = [
+  const softwareProjects = [
     {
-      id: 1,
       name: "Quizzz",
       context: "Delft University of Technology",
       technologies: ["Java", "JavaFX"],
@@ -66,6 +85,14 @@ function Projects() {
       completedDate: "Multiplayer Desktop Quiz Game - April 2021",
     },
   ];
+
+  const researchProjects = researchProj
+    .reverse()
+    .map((project, index) => ({ id: index + 1, ...project }));
+
+  const projects = softwareProjects
+    .reverse()
+    .map((project, index) => ({ id: index + 1, ...project }));
 
   var right = true;
 
