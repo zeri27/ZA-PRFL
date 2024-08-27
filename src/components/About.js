@@ -9,9 +9,8 @@ import {
 } from "react-icons/fa";
 
 function About() {
-  const education = [
+  const educateUni = [
     {
-      id: 0,
       degree: "High School Diploma",
       time: "2014 - 2021",
       institute: "Sunrise English Private School",
@@ -20,7 +19,6 @@ function About() {
         "Fundamentals of Mathematics, Science, Languages and Social Sciences",
     },
     {
-      id: 1,
       degree: "Bachelor of Computer Science & Engineering",
       time: "2021 - 2024",
       institute: "Delft University of Technology",
@@ -29,7 +27,6 @@ function About() {
         "Main Courses: Algorithm Design, Computer Systems, Data Management, Machine Learning, Data Processing, Web Development",
     },
     {
-      id: 2,
       degree: "Master of Computer Science",
       time: "2024 - 2026",
       institute: "Delft University of Technology",
@@ -38,6 +35,10 @@ function About() {
         "Main Courses: Software Architecture, Machine Learning Applications Engineering, Distributed Systems Engineering, Research Process",
     },
   ];
+
+  const education = educateUni
+    .reverse()
+    .map((project, index) => ({ id: index + 1, ...project }));
 
   const educationItems = education.map((edx) => (
     <li key={edx.id}>
@@ -69,9 +70,8 @@ function About() {
     </li>
   ));
 
-  const workExperience = [
+  const workXP = [
     {
-      id: 0,
       title: "Software Developer (Internship)",
       time: "April 2023 - June 2023",
       company: "Freie Universität Berlin",
@@ -80,6 +80,11 @@ function About() {
         "Worked with a team to develop a full-scale application from scratch leveraging cutting-edge technologies and best practices.",
     },
   ];
+
+  /* Reverses list so add latest at the end of list */
+  const workExperience = workXP
+    .reverse()
+    .map((project, index) => ({ id: index + 1, ...project }));
 
   const workExpItems = workExperience.map((wrkExp) => (
     <li key={wrkExp.id}>
