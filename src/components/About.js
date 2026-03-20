@@ -72,12 +72,28 @@ function About() {
 
   const workXP = [
     {
-      title: "Software Developer (Internship)",
+      title: "Software Developer Intern",
       time: "April 2023 - June 2023",
       company: "Freie Universität Berlin",
       location: "Delft, Netherlands (Remote)",
       description:
         "Worked with a team to develop a full-scale application from scratch leveraging cutting-edge technologies and best practices.",
+    },
+    {
+      title: "Technical Solutions Intern",
+      time: "July 2025 - August 2025",
+      company: "ADNOC Group",
+      location: "Abu Dhabi, United Arab Emirates (On-site)",
+      description:
+        "Developed and deployed end-to-end data-driven solutions for upstream oil & gas operations, prototyping ML models in Python and integrating them into scalable Dataiku pipelines while collaborating across technical and business teams.",
+    },
+    {
+      title: "Research Intern",
+      time: "November 2025 - July 2026",
+      company: "TNO HTFD",
+      location: "Rijswijk, Netherlands (On-site)",
+      description:
+        "Conducted master’s thesis research on applying Time Series Foundation Models (TSFMs) for forecasting and anomaly detection in geothermal operations.",
     },
   ];
 
